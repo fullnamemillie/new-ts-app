@@ -1,0 +1,68 @@
+.block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  margin: 15px auto;
+  width: 400px;
+  background-color: #c0e0f6;
+
+  li {
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 5px;
+
+    .checkbox {
+      margin-right: 10px;
+    }
+
+    input:checked + p {
+      cursor: pointer;
+      text-decoration: line-through;
+    }
+
+    .title {
+      max-width: 300px;
+    }
+
+    button {
+      position: absolute;
+      right: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .block {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .title {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .block {
+    width: 270px;
+  }
+
+  .title {
+    width: 170px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .block {
+    width: 250px;
+  }
+
+  .title {
+    width: 150px;
+    font-size: 14px;
+  }
+}

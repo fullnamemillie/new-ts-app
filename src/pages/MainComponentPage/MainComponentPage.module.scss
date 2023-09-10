@@ -1,0 +1,75 @@
+.block {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: white;
+  margin-top: 20px;
+
+  .title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+  .loading {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+  }
+}
+
+.button {
+  padding: 12px 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: #188feb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #117cce;
+}
+
+@media screen and (max-width: 600px) {
+  .block {
+    .title {
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .block {
+    .title {
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .block {
+    .title {
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .block {
+    .title {
+      font-size: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .block {
+    .title {
+      font-size: 25px;
+    }
+  }
+}
