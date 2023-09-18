@@ -22,10 +22,10 @@
   font-size: 18px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-}
 
-.button:hover {
-  background-color: #117cce;
+  &:hover {
+    background-color: #117cce;
+  }
 }
 
 @media screen and (max-width: 600px) {

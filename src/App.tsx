@@ -11,8 +11,6 @@ const App: React.FC = () => {
       <Header />
       <Routes>
         <Route path="/" element={<MainComponentPage />} />
-      </Routes>
-      <Routes>
         <Route path="/trashbasket" element={<TrashBasketPage />} />
       </Routes>
     </div>

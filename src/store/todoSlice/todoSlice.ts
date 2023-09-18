@@ -4,9 +4,9 @@ import {
   addNewFetchTask,
   deleteTask,
   toggleTaskCompleted,
-} from '../api/fetchTodo';
-import { TodoState } from '../types/types';
-import { Todo } from '../types/types';
+} from '../../api/fetchTodo';
+import { TodoState } from '../../types/types';
+import { Todo } from '../../types/types';
 
 const initialState: TodoState = {
   list: [],
